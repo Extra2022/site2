@@ -1,0 +1,164 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Commissioner:100@import url(https://fonts.googleapis.com/css?family=Commissioner:100,200,300,regular,500,600,700,800,900);&display=swap&subset=cyrillic-ext");
+@font-face {
+	font-family: "PT Root UI";
+	src: url("../fonts/PTRootUI-Bold.woff2") format("woff2"),
+		url("../fonts/PTRootUI-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Root UI";
+	src: url("../fonts/PTRootUI-Regular.woff2") format("woff2"),
+		url("../fonts/PTRootUI-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	src: url("../fonts/NeueHaasDisplay-XXThinItalic.woff2") format("woff2"),
+		url("../fonts/NeueHaasDisplay-XXThinItalic.woff") format("woff");
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;@import url(https://fonts.googleapis.com/css?family=Fuzzy+Bubbles:regular,700);
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family: "Commissioner", sans-serif;
+	
+}
+h1 {font-size: 36px;
+line-height: 44px;
+font-weight: bold;
+text-align: center;}
+
+
+h2 {font-size: 28px;
+line-height: 36px;
+font-weight: bold;
+text-align: center;
+word-spacing: 20px;}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 18px; 
+	
+}
+body {
+	font-family: "PT Root UI", sans-serif; 
+	line-height: 26px;
+	font-weight: normal;
+	
+	
+
+}
+p {text-indent: 50px;}
+
+p.quote {font-size: 20px;
+line-height: 28px;
+font-weight: 600;
+
+
+
+}
+.oblique {
+	font-style: oblique;
+font-weight: bold;
+color: crimson;}
+
+p.autograph {font-size: 22px;
+line-height: 30px;
+font-family: "Commissioner",
+sans-serif;}
+
+
+
+
+p.result {font-size: 24px;
+line-height: 32px;
+font-weight: bold;
+font-family: "Commissioner",
+sans-serif;
+text-align: left;
+letter-spacing: 30px;
+}
+
+.test {font-weight: lite;
+color: blue;}
+.test2 ul {
+	font-weight: bold;
+	color: #4c2ca5;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: underline;
+	
+}
+
+.picture {text-align: center;}
+.sell {text-decoration: line-through;
+color: black;
+font-size: 30px;
+text-shadow: 3px 3px 3px grey;
+}
+
+
+
+.sale {font-size: 30px;
+color: red;
+text-shadow: 3px 3px 3px royalblue;}
+
+
+.test ul {text-transform: uppercase; color: #4f9e1b;}
+ul {text-indent: 50px;}
+
+.menu {font-family: "Neue Haas Grotesk Display Pro", serif;
+color: #804c1c;
+font-size: 30px;
+font-weight: bold;
+text-shadow: 3px 3px 3px #804c1c;}
+
+.extra {font-family: "Montserrat Subrayada", serif;
+font-size: 28px;
+font-weight: bold;
+line-height: 30px;
+color: green;
+text-decoration: underline;
+}
+.xxx ul {color: purple;
+	font-family: "Montserrat Subrayada", serif;
+	text-decoration: underline;
+}
+.oblique ~ p {color: yellow;
+font-size: 40px;
+font-family: "Montserrat Subrayada", serif;
+font-style: italic;} 
+a {color: blue;}
